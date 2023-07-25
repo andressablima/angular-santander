@@ -13,21 +13,36 @@
 }
 
 .card-logo {
-}
-.card-info {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+	height: 20%;
+}
+
+.card-middle {
+	height: 60px;
+	display: flex;
+	justify-content: flex-start;
 	align-items: center;
 }
-.card-middle {
+
+.card-middle > div {
 	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
 	align-items: flex-start;
-	width: 300px;
+	width: 100%;
 }
+
 .card-footer {
+	font-size: 22px;
+	display: flex;
+	justify-content: space-around;
+	height: 30%;
 }
+
 .card-limit {
+	display: flex;
+	justify-content: flex-end;
+	font-size: medium;
 }

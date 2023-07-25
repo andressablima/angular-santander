@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AccountDataModel } from 'src/app/model/accountDataModel';
+import { AccountDataModel } from 'src/app/models/accountDataModel';
 import { CardsService } from 'src/app/services/cards.service';
 
 @Component({
@@ -8,8 +8,6 @@ import { CardsService } from 'src/app/services/cards.service';
 	styleUrls: ['./card-box.component.css'],
 })
 export class CardBoxComponent implements OnInit {
-	constructor(private service: CardsService) {}
-
 	accountData: AccountDataModel = {
 		name: '',
 		account: {
@@ -21,6 +19,8 @@ export class CardBoxComponent implements OnInit {
 			number: '0000',
 		},
 	};
+
+	constructor(private service: CardsService) {}
 
 	ngOnInit(): void {
 		this.getAccountData();
