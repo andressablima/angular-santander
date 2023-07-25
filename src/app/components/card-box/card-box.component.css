@@ -16,8 +16,11 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-right: 30px;
+	margin-right: 20px;
 	height: 20%;
+}
+.intro-info span {
+	font-weight: bold;
 }
 
 .card-middle {
@@ -34,15 +37,28 @@
 	width: 100%;
 }
 
-.card-footer {
-	font-size: 22px;
+.card-intro {
+	font-size: 18px;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	height: 30%;
 }
-
+.client-name {
+	font-size: 20px;
+}
 .card-limit {
 	display: flex;
 	justify-content: flex-end;
 	font-size: medium;
+}
+
+.client-data {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.account-info {
+	padding-bottom: 5px;
+	font-size: 17px;
 }

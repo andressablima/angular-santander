@@ -2,8 +2,9 @@
 	border-radius: 12px;
 	background-color: #ffffff;
 	height: 220px;
-	width: 400px;
+	width: 340px;
 	padding: 10px 30px;
+	margin-top: 4vh;
 }
 
 .amout-title {
@@ -27,6 +28,11 @@
 	font-weight: 700;
 	height: 70px;
 	margin-top: 20px;
+	transition: 0.2;
+}
+
+#amount-value:hover {
+	color: #696969;
 }
 
 #divider {
