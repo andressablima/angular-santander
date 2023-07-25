@@ -1,0 +1,33 @@
+.card-container {
+	color: white;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 24px;
+	border-radius: 12px;
+	background-color: #ed0000;
+	height: 220px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px 30px;
+}
+
+.card-logo {
+}
+.card-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.card-middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 300px;
+}
+.card-footer {
+}
+.card-limit {
+}
